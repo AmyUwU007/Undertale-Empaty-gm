@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_camera_set_follow_target_inst",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_camera_set_follow_target_inst",
+  "parent":{
+    "name":"Camara",
+    "path":"folders/Rooms/Scripts/Camara.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

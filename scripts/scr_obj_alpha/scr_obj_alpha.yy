@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_obj_alpha",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_obj_alpha",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Rooms/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
