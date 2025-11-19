@@ -4,8 +4,8 @@ Change_target = false;
 Change_zoom = false;
 Change_offset = true;
 
-positionX = 450;
-positionY = 310;
+positionX = 560;
+positionY = 100;
 
 rotation = 0;
 

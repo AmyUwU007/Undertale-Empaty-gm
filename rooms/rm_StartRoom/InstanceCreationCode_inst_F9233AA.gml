@@ -1,5 +1,5 @@
 depth = 284
-positionX = 40;
-positionY =  0;
+positionX = 55;
+positionY =  -80;
 background = spr_castillo
 _p = 0.8

@@ -1,5 +1,5 @@
 depth = 281
-positionX = 170;
-positionY =  170;
+positionX = 250;
+positionY =  55;
 background = spr_rder
 _p = 0.6
