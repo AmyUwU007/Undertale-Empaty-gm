@@ -6,7 +6,7 @@
   "name":"scr_camera_set_follow_target_inst",
   "parent":{
     "name":"Camara",
-    "path":"folders/Rooms/Scripts/Camara.yy",
+    "path":"folders/Scripts/Camara.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

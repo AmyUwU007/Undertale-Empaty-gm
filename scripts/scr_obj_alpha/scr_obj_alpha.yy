@@ -6,7 +6,7 @@
   "name":"scr_obj_alpha",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Rooms/Scripts.yy",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

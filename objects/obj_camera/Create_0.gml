@@ -32,3 +32,4 @@ default_scale = camWidth_base / ratio_w;
 // Variables de rotacion (en grados)
 rotation = 0;   // Rotación actual de la cámara
 rotationTo = 0; // Objetivo de rotación
+

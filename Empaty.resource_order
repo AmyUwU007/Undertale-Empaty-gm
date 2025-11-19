@@ -1,13 +1,13 @@
 {
   "FolderOrderSettings":[
-    {"name":"Objects","order":3,"path":"folders/Objects.yy",},
+    {"name":"Objects","order":1,"path":"folders/Objects.yy",},
     {"name":"Colitions","order":4,"path":"folders/Objects/Colitions.yy",},
     {"name":"Dialog","order":13,"path":"folders/Objects/Dialog.yy",},
     {"name":"Systems","order":9,"path":"folders/Objects/Systems.yy",},
-    {"name":"Rooms","order":5,"path":"folders/Rooms.yy",},
-    {"name":"Scripts","order":4,"path":"folders/Rooms/Scripts.yy",},
-    {"name":"Camara","order":8,"path":"folders/Rooms/Scripts/Camara.yy",},
-    {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
+    {"name":"Rooms","order":3,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
+    {"name":"Camara","order":8,"path":"folders/Scripts/Camara.yy",},
+    {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
     {"name":"Colitions","order":9,"path":"folders/Sprites/Colitions.yy",},
     {"name":"Player","order":6,"path":"folders/Sprites/Player.yy",},
     {"name":"Rooms","order":5,"path":"folders/Sprites/Rooms.yy",},
