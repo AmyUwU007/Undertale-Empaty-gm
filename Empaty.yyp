@@ -92,8 +92,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_StartRoom","path":"rooms/rm_StartRoom/rm_StartRoom.yy",},},
     {"roomId":{"name":"rm_menutest","path":"rooms/rm_menutest/rm_menutest.yy",},},
+    {"roomId":{"name":"rm_StartRoom","path":"rooms/rm_StartRoom/rm_StartRoom.yy",},},
     {"roomId":{"name":"rm_room1","path":"rooms/rm_room1/rm_room1.yy",},},
     {"roomId":{"name":"rm_room2","path":"rooms/rm_room2/rm_room2.yy",},},
     {"roomId":{"name":"rm_room3","path":"rooms/rm_room3/rm_room3.yy",},},
