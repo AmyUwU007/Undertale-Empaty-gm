@@ -2,10 +2,14 @@ xspd = 0;
 yspd = 0;
 
 move_spd = 1.5;
-running = 0;
-run_key = 0
 
+enum states {
+normal = 1,
+running = 2,
+paused = 3
+}
 
+actual_state = 1
 
 sprite[RIGHT] = spr_player_right_walk
 sprite[UP] = spr_player_up_walk

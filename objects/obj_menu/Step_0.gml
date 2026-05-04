@@ -10,6 +10,10 @@ windowY = window_get_height()
 //guardar en numero de opccion en el array
 op_length = array_length(option[menu_level])
 
+if down_key or up_key {
+audio_play_sound(snd_move, 0, 0)
+}
+
 //moverse en el menu
 pos += down_key - up_key
 if pos >= op_length {pos = 0};
@@ -24,8 +28,8 @@ switch(menu_level){
 	case 0:
 		switch(pos){
 			//iniciar juego
-			case 0: room_goto_next(); break;
-			case 1: menu_level = 1; break;
+			case 0: room_goto(rm_room0); audio_play_sound(snd_undertale, 0, 0); break;
+			case 1: menu_level = 1; audio_play_sound(snd_select, 0, 0) break;
 			case 2: game_end(); break;
 			}
 	break;
@@ -34,12 +38,12 @@ switch(menu_level){
 			//iniciar juego
 			case 0: if windowX + 320 <= screenX && windowY + 240 <= screenY
 			{
-				window_set_size(windowX+320, windowY+240); alarm[0] = 1;
-			}else {window_set_size(320, 240); alarm[0] = 1;}
+				window_set_size(windowX+320, windowY+240); alarm[0] = 1; audio_play_sound(snd_epic, 0, 0)
+			}else {window_set_size(320, 240); alarm[0] = 1; audio_play_sound(snd_flick, 0, 0)}
 			break;
-			case 1: break;
-			case 2: break;
-			case 3: menu_level = 0; break;
+			case 1: audio_play_sound(snd_damage, 0, 0); break;
+			case 2: audio_play_sound(snd_damage, 0, 0, 1,0,1.01); break;
+			case 3: menu_level = 0; audio_play_sound(snd_flick, 0, 0); break;
 			}
 	break;
 	}

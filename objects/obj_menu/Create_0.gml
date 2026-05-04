@@ -1,12 +1,12 @@
-width = 80;
+  width = 80;
 height = 105;
 
 op_border = 8
 op_space = 16;
 
 pos = 0;
-
-font = fnt_undertale
+numero = 0
+font = fnt_menu
 
 option [0, 0] = "Start";
 option [0, 1] = "Settings";

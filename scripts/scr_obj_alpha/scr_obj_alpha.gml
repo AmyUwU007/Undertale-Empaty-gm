@@ -11,3 +11,4 @@ function scr_obj_alpha(instance, alpha){
 		instance.image_alpha += 0.1
 	}
 }
+// ESTO DE HECHO YA NO ES PARA NADA XDDDDDDDD
